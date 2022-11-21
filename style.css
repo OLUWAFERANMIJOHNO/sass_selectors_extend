@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 80vw;
+  border: 1px solid;
+  color: none;
+  border-color: red;
+  font-size: 16px;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 0.625rem 0.625rem 0.625rem;
+}
+div .section1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+div .section1 article {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+}
+div .section1 article:nth-child(odd) {
+  color: blue;
+  border-color: green;
+  font-size: 16px;
+}
+div .section1 article:nth-child(even) {
+  color: red;
+  border-color: green;
+  font-size: 16px;
+}
+div .section1 article p {
+  text-align: center;
+}
+div h1 {
+  border-bottom: 1px solid;
+  color: green;
+  border-color: green;
+  font-size: 1.5rem;
+  width: fit-content;
+}
+div .section2 {
+  border: 1px solid;
+  color: green;
+  border-color: blue;
+  font-size: 24px;
+}
+div .section2 article {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
