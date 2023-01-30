@@ -52,6 +52,11 @@ div {
         @include article-card(green, green, 1.5rem);
         width: fit-content;
     }
+    h2{
+        @extend h1;
+        border: 1px solid red;
+        padding: 1rem;
+    }
 
     .section2{
         border: 1px solid;
